@@ -1,0 +1,64 @@
+/**
+ * @section Base Styles
+ */
+
+body {
+  //   font-size: 125%;
+  font-family: 'Comfortaa', cursive;
+  font-size: 1em;
+  margin: 0 auto;
+  max-width: 42em;
+  width: 88%;
+  background-color: #dcdcdc;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+input,
+textarea,
+select,
+button {
+  font: inherit;
+}
+
+table {
+  position: relative;
+  border-collapse: collapse;
+  border-radius: 5px;
+  overflow: hidden;
+  width: 100%;
+  letter-spacing: 0.02em;
+  word-spacing: 0.2em;
+  box-shadow: 3px 3px 10px 6px #ccc;
+}
+
+th {
+  font-weight: 900;
+}
+
+td {
+  font-weight: 200;
+}
+
+th,
+td {
+  text-align: left;
+  border: 1px solid #dbdbdb;
+  border-width: 0 0 1px;
+  padding: 0.75em 0.75em;
+  vertical-align: top;
+  min-width: 5em;
+}
+
+thead tr {
+  background: #fff;
+}
+
+tbody tr:nth-child(even) {
+  background: #fff;
+}
+
+tbody tr:nth-child(odd) {
+  background: #f0f0f0;
+}

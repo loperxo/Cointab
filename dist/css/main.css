@@ -1,0 +1,77 @@
+/*! project-name v0.0.1 | (c) 2019 YOUR NAME | MIT License | http://link-to-your-git-repo.com */
+/**
+ * @section Base Styles
+ */
+/* line 5, src/sass/components/_base.scss */
+body {
+  font-family: 'Comfortaa', cursive;
+  font-size: 1em;
+  margin: 0 auto;
+  max-width: 42em;
+  width: 88%;
+  background-color: #dcdcdc;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+/* line 18, src/sass/components/_base.scss */
+input,
+textarea,
+select,
+button {
+  font: inherit;
+}
+
+/* line 25, src/sass/components/_base.scss */
+table {
+  position: relative;
+  border-collapse: collapse;
+  border-radius: 5px;
+  overflow: hidden;
+  width: 100%;
+  letter-spacing: 0.02em;
+  word-spacing: 0.2em;
+  -webkit-box-shadow: 3px 3px 10px 6px #ccc;
+          box-shadow: 3px 3px 10px 6px #ccc;
+}
+
+/* line 36, src/sass/components/_base.scss */
+th {
+  font-weight: 900;
+}
+
+/* line 40, src/sass/components/_base.scss */
+td {
+  font-weight: 200;
+}
+
+/* line 44, src/sass/components/_base.scss */
+th,
+td {
+  text-align: left;
+  border: 1px solid #dbdbdb;
+  border-width: 0 0 1px;
+  padding: 0.75em 0.75em;
+  vertical-align: top;
+  min-width: 5em;
+}
+
+/* line 54, src/sass/components/_base.scss */
+thead tr {
+  background: #fff;
+}
+
+/* line 58, src/sass/components/_base.scss */
+tbody tr:nth-child(even) {
+  background: #fff;
+}
+
+/* line 62, src/sass/components/_base.scss */
+tbody tr:nth-child(odd) {
+  background: #f0f0f0;
+}
